@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html class="wf-Roboto" lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="style/small.css">
+  <link rel="stylesheet" href="style/medium.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>Assignment Portal</title>
+</head>
+
+<body>
+  <header>
+    <img src="images/RiverRhodes2.jpg" alt="RiveRhodesAsApainting">
+    <h1>River Rhodes</h1>
+  </header>
+  <main>
+    <h2>WDD 230: Assignment Portal</h2>
+        <ul><li>Lesson 02: <a href="">Wire frame</a></li></ul>
+        <ul><li>Lesson 03: <a href="">Chamber of Commerce</a></li></ul>
+        <ul><li>Lesson 04: <a href="">Assignment week 4</a></li></ul>
+        <ul><li>Lesson 05: <a href="">week 5</a></li></ul>
+        <ul><li>Lesson 06: <a href="">Chamber of Commerce week 6</a></li></ul>
+        <ul><li>Lesson 07: <a href="">week 7</a></li></ul>
+        <ul><li>Lesson 08: <a href="">week 8</a></li></ul>
+        <ul><li>Lesson 09: <a href="">week 9</a></li></ul>
+        <ul><li>Lesson 10: <a href="">week 10</a></li></ul>
+        <ul><li>Lesson 11: <a href="">week 11</a></li></ul>
+  </main>
+  <footer>
+    <p>&copy;<span id="currentyear"></span> |-River Rhodes-|WDD 230</p>
+    <p>Last Updated: <span id="currentdate"></span>
+      <script src="scripts/script.js"></script>
+    </p>
+  </footer>
+</body>
+
+</html>
