@@ -11,7 +11,6 @@
   text-shadow: 1px 5px 4px #FFFFFF;
 }
 html {
-    background-color: whites;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 860px;
@@ -29,7 +28,6 @@ body {
   }
   header {
     height:320px;
-    padding: -1em;
     display: grid;
     position: relative;
     grid-template-columns: 1fr;
@@ -43,8 +41,6 @@ body {
     height: 70%;
     width: 100%;
     margin: -0.9em 0 -0.9em auto;
-    position: center;
-    background-color: none;
   }
   h1 {
     font-size: 2rem;
@@ -64,13 +60,11 @@ body {
     text-align: center;
   }
   footer {
-    position: bottom;
-    padding: -1em;
     font-size: 1.5rem;
     text-align: center;
     text-shadow: 1px 2px 5px #000000;
     border-radius: 5px;
-    border-width: 6px;
+    height: 85px;
     border-color: black;
     background-color: rgba(88, 88, 88, 0.397);
     font-family: 'Roboto', sans-serif;
