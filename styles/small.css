@@ -1,9 +1,4 @@
-.col-1 {width: 8.33%;}
-
 @media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    width: 100%;
-  }
 }
 *{
   font-family: 'Roboto', sans-serif;

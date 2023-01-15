@@ -1,0 +1,18 @@
+@media(min-width: 900px) {
+    body{
+    }
+    main{
+        display: grid;
+        grid-template-columns: .5fr .5fr .5fr;
+        grid-column-gap: 2em;
+        grid-template-areas:
+        'h h h';
+    }
+    p{
+        border: 1px solid black;
+        font-size: 1.5rem;
+    }
+    .one, .two, .three{
+        font-size: 2rem;
+    }
+}
