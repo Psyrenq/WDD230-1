@@ -1,14 +1,15 @@
+body{
+    margin-left: 0%;
+}
 html{
     font-family: 'Inter Tight', sans-serif;
     text-shadow: 1px 1px 3px #000000;
-    margin: 4%;
-    height: 10%;
+    margin: 0%;
+    padding: 0%;
 }
 header{
-    background-color: rgb(42, 110, 193);
-    font-size: 2.5rem;
+    font-size: clamp(2rem, 3vw, 4rem);
     text-align: center;
-    border-radius: 15px;
 }
 main{
     display: grid;
@@ -19,6 +20,9 @@ main{
     'h'
     'h';
     grid-gap: 2em;
+    height: 10%;
+    width: 70%;
+    margin-left: 18%;
 }
 .section{
     margin: 5%;
@@ -28,7 +32,6 @@ main{
     color: white;
     font-size: 2rem;
     text-align: center;
-    height: fit-content;
 }
 .one, .two, .three{
     grid-area: h;
@@ -36,15 +39,12 @@ main{
     color: black; 
     border: 2px solid rgb(146, 146, 146);
     border-radius: .2em;
-    font-size: clamp(2rem, 50%, 3rem);
-    width: fit-content;
+    font-size: clamp(1.5rem, 3vw, 1rem);
 }
 
 img{
-    width: 100%;
-    height: 90%;
+    width: clamp(300px, 3vw, 300px);
 }
 p{
-    border: 1px solid black;
-    font-size: clamp(1.5rem, 50%, 3rem);
+    font-size: clamp(1.5rem, 3vw, 3rem);
 }
