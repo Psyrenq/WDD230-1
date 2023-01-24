@@ -1,33 +1,7 @@
-let daynames = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday"
-]
-let months = [
-    "January",
-    "Feburary",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-]
+var lastUpdated = `Last updated: ${document.lastModified}`;
 
-let d = new Date();
-let dayName = daynames[d.getDay()];
-let monthName = months[d.getMonth()];
-let fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + d.getFullYear();
-let fullyear = d.getFullYear();
-
-const currentdate = "currentdate";
-document.getElementById(currentdate).textContent = fulldate;
-document.getElementById("currentyear").textContent = fullyear;
+document.getElementById("updateDate").innerText=lastUpdated;
+ 
+const currentDate = document.querySelector("#currentYear");
+currentDate.textContent = `${new Date().getFullYear()}`;
+//©-River-Rhodes
