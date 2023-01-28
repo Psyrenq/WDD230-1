@@ -1,0 +1,122 @@
+*{
+    margin: 2%;
+    box-sizing: border-box
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 65%;
+    margin: 13px auto;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(250, 248, 240);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.q{
+    width: 170px;
+}
+.banner{
+    grid-row: 2;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+.event{
+    grid-area: 1/1;
+    border-style: solid;
+}
+.weather{
+    grid-area: 2/1;
+    border-style: solid;
+}
+.join{
+    grid-area: 3/1;
+    border-style: solid;
+}
+.hero{
+    grid-area: 1/2;
+    border-style: solid;
+}
+.news{
+    grid-area: 2/2;
+    border-style: solid;
+}
+.spotLight-3{
+    display: none;
+}
+.spotLight-1,.spotLight-2{
+    border-style: solid;
+    padding: 30px;
+    flex-direction: column;
+}
+nav{
+    margin: 0;
+    padding: none;
+    grid-column: 1;
+    grid-row: 3;
+    width: auto;
+}
+nav:first-child{
+    display: block;
+}
+#menu::before {
+	content: "≡";
+	font-size: 2rem;
+}
+.responsive{
+    border-style: solid;
+    background-color:blanchedalmond;
+  }
+nav ul a {
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5rem;
+	transition: 0.3s;
+}
+.navigation li:first-child {
+	display: 1/2;
+}
+.navigation li{
+    display: block;
+}
+.navigation a {
+	display: block;
+	text-align: center;
+	color: black;
+	transition: 0.5s;
+}
+.navigation a:hover{
+    transition: 0.6s;
+    background-color: antiquewhite;
+    font-size: 1.5rem;
+}
+.responsive li{
+	display: block;
+}
+.responsive #menu::before {
+	content: "X";
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: rgb(250, 248, 240);
+}
+.footing{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.date{
+    grid-column: 1/4;
+    border-top-style: solid;
+}
