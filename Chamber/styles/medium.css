@@ -1,61 +1,84 @@
 @media only screen and (min-width: 47.5em){
-    main{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(auto, 1fr);
-    }
-    .banner{
-        grid-column: 1;
-        grid-row: 2/2;
-    }
-    .hero{
-        grid-column: 1/3;
-    }
-    .news{
-        grid-column: 1/3;
-    }
-    .spotLight{
-        grid-column: 1/3;
-        display: flex;
-    }
-    .join{
-        grid-column: 1/3;
-        grid-row: 4;
-    }
-    .weather{
-        grid-column: 2/4;
-        grid-row: 5;
-    }
-    .event{
-        grid-column: 1/2;
-        grid-row: 5;
-    }
-    .spotLight-1,.spotLight-2{
-        flex: 1 1 auto;
-    }
-    .spotLight-3{
-        display: none;
-    }
-    footer{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
-    .footing{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        font-size: 1rem;
-        flex-direction: row;
-    }
-    .footing img{
-        width: 100px;
-    }
-    @media only screen and (min-width: 3.5em) {
-        .navigation li {
-            display: block;
-        }
-        .navigation li:first-child {
-            display: block;
-        }
-    }
+body{
+width: 90%;
+margin: 5% auto;
+}
+/* Header */
+header{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.date{
+grid-column: 1/3;
+grid-row: 4;
+}
+.logo{
+grid-column: 1;
+}
+/* Social Media */
+.social-media{
+grid-column: 2;
+}
+/* Navigation */
+@media only screen and (min-width: 3.5em) {
+nav{
+grid-column: 1/3;
+grid-row: 3;
+}
+.navigation li {
+display: block;
+}
+.navigation li:first-child {
+display: block;
+}
+}
+/* Content */
+main{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: repeat(auto, 1fr);
+}
+.hero{
+grid-column: 1/3;
+}
+.news{
+grid-column: 1/3;
+}
+.spotLight{
+grid-column: 1/3;
+display: flex;
+}
+.join{
+grid-column: 1/3;
+grid-row: 4;
+}
+.weather{
+grid-column: 2/4;
+grid-row: 5;
+}
+.event{
+grid-column: 1/2;
+grid-row: 5;
+}
+.spotLight-1,.spotLight-2{
+flex: 1 1 auto;
+}
+.spotLight-3{
+display: none;
+}
+/* Footer */
+footer{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr;
+}
+.footing{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+font-size: 1rem;
+flex-direction: row;
+}
+.footing img{
+width: 100px;
+}
 }
