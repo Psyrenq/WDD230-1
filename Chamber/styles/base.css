@@ -1,25 +1,26 @@
-*{
-    margin: 2%;
-    box-sizing: border-box
-}
 body{
     font-family: 'Roboto', sans-serif;
-    width: 65%;
-    margin: 13px auto;
 }
 header{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     background-color: rgb(250, 248, 240);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: blanchedalmond;
 }
 .logo{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+h1{
+    font-size: 30px;
+}
 .q{
     width: 170px;
+    font-size: 15px;
 }
 .banner{
     grid-row: 2;
@@ -54,24 +55,24 @@ header{
     padding: 30px;
     flex-direction: column;
 }
-nav{
-    margin: 0;
-    padding: none;
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+.social-media li{
+    display: block;
+}
+.navigation{
+    padding: 0;
     grid-column: 1;
     grid-row: 3;
-    width: auto;
 }
 nav:first-child{
     display: block;
 }
-#menu::before {
-	content: "≡";
-	font-size: 2rem;
-}
-.responsive{
-    border-style: solid;
-    background-color:blanchedalmond;
-  }
 nav ul a {
 	display: block;
 	color: black;
@@ -86,6 +87,18 @@ nav ul a {
 .navigation li{
     display: block;
 }
+#menu::before {
+	content: "≡";
+	font-size: 2rem;
+}
+.responsive{
+    border-style: solid;
+    background-color:blanchedalmond;
+  }
+  
+.responsive li{
+	display: block;
+}
 .navigation a {
 	display: block;
 	text-align: center;
@@ -97,9 +110,6 @@ nav ul a {
     background-color: antiquewhite;
     font-size: 1.5rem;
 }
-.responsive li{
-	display: block;
-}
 .responsive #menu::before {
 	content: "X";
 }
@@ -108,6 +118,9 @@ footer{
     grid-template-columns: 1fr;
     text-align: center;
     background-color: rgb(250, 248, 240);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: blanchedalmond;
 }
 .footing{
     padding: 10px;
