@@ -75,10 +75,10 @@ box-shadow: 1px 1px 10px black;
 display: none;
 }
 .spotLight{
-    border-style: solid;
-    padding: 20px;
-    background-color: rgb(250, 248, 240);
-    border-radius: 5px;
+border-style: solid;
+padding: 20px;
+background-color: rgb(250, 248, 240);
+border-radius: 5px;
 }
 .spotLight-1,.spotLight-2{
 display: flex;
@@ -91,20 +91,20 @@ background-color: blanchedalmond;
 box-shadow: 1px 1px 10px black;
 }
 .spotLight img{
-    width: 100%;
+width: 100%;
 }
 .announcement{
-    font-size: 1.5rem;
-    text-align: center;
-    font-weight: bolder;
-    color: rgb(104, 62, 62);
-    text-shadow: 1px 2px 6px black;
+font-size: 1.5rem;
+text-align: center;
+font-weight: bolder;
+color: rgb(104, 62, 62);
+text-shadow: 1px 2px 6px black;
 }
 .info{
-    border-top: solid black;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.1rem;
+border-top: solid black;
+font-weight: bold;
+text-align: center;
+font-size: 1.1rem;
 }
 /* Social Media */
 .social-media{
