@@ -1,7 +1,7 @@
 //Menu
 function toggleMenu(){
     document.getElementById("navigation").classList.toggle("open");
-    document.getElementById("hambButton").classList.toggle("open");
+    document.getElementById("menuButton").classList.toggle("open");
 
 }
  const x = document.getElementById("menuButton");
