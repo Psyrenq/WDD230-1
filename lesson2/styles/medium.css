@@ -2,7 +2,13 @@
     main{
         display: grid;
         grid-template-columns:repeat(2, 1fr);
-        column-gap: 10%;
-        padding: 2%;
+        column-gap: 10px;
+    }
+    footer{
+        grid-column: 1/3;
+        grid-row: 3;
+    }
+    img{
+        width: 300px;
     }
 }
