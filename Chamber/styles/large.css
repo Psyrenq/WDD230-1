@@ -4,12 +4,14 @@ width: 65%;
 margin: 5% auto;
 }
 /* Header */
-.logo{
-flex-direction: row;
-}
 header{
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.logo{
+grid-column: 1;
+grid-row: 1;
+flex-direction: row;
 }
 .date{
 grid-column: 1/5;
@@ -17,6 +19,13 @@ text-align: center;
 justify-content: center;
 align-items: center;
 background-color: blanchedalmond;
+}
+.special-date{
+display: block;
+grid-column: 1/5;
+grid-row: 1;
+font-weight: bold;
+text-align: center;
 }
 .social-media{
 grid-column: 4;
@@ -91,9 +100,9 @@ grid-template-columns: 1fr;
 grid-template-rows: 2fr;
 }
 .footing{
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
+display: flex;
+justify-content:space-evenly;
+align-items: center;
 }
 .update{
 grid-column: 1/4;
