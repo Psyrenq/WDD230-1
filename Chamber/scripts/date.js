@@ -23,7 +23,7 @@ month[9] = "October";
 month[10] = "November";
 month[11] = "December";
 
-const meetingBanner = document.querySelector(".banner");
+const meetingBanner = document.querySelector(".special-date");
 window.addEventListener("load", () => {
   if (myDate.getDay() < 3 && 
     myDate.getDay() > 0) {
