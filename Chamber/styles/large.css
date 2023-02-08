@@ -1,7 +1,7 @@
 @media only screen and (min-width: 60em){
 body{
 width: 65%;
-margin: 5% auto;
+margin: 1% auto;
 }
 /* Header */
 header{
@@ -46,8 +46,8 @@ display: flex;
 /* Content */
 main{
 display: grid;
-grid-template-columns: 1fr 3fr 1fr;
-grid-template-rows: .5fr .5fr .5fr;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-rows: 1fr .1fr 1fr;
 column-gap: 10px;
 }
 .event{
@@ -69,6 +69,12 @@ border-style: solid;
 grid-column: 2;
 grid-row: 1/3;
 border-style: solid;
+}
+#heroJoin{
+position: absolute;
+top: 50%;
+left: 50%;
+width: 300px;
 }
 .news{
 grid-area: 3/2;
