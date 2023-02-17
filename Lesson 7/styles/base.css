@@ -1,0 +1,13 @@
+body{
+    font-size: 2rem;
+    text-shadow: 1px 4px 4px white;
+    background-image: linear-gradient(rgb(198, 198, 198),grey,white);
+    background-attachment: fixed;
+    display: grid;
+    grid-template-columns:1;
+    justify-items: center;
+}
+
+picture img [data-src]{
+    filter: blur(2em);
+}
